@@ -242,7 +242,8 @@ header{
     width: 75%;
     display: flex;
     flex-direction: column;
-    align-items: centekground-color: rgb(44, 61, 77);
+    align-items: center;
+    background-color: rgb(44, 61, 77);
     /* azul medio rgb(44, 61, 77); */
     border: .5rem solid rgb(44, 61, 77);
 }
@@ -399,7 +400,7 @@ header{
     }
 
     .formulario{
-        .margin-top: 3rem;
+        margin-top: 3rem;
     }
     
     .campo{
