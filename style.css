@@ -113,7 +113,7 @@ header{
 
 .portada{
     background-color: #93a8baac;
-    height: 92vh;
+    height: 95vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -344,12 +344,13 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center;
-    height: 20vh;
+    height: 45vh;
 }
 
 .footer{
     background-color: #93a8ba;
     position: fixed;
+    position: relative;
     bottom: 0;
     width: 100vw;
     height: 5vh;
