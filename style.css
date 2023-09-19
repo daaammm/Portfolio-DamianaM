@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Arizonia&family=Dancing+Script:wght@700&family=Inconsolata:wght@200;800&family=Jost:ital,wght@1,300&family=Lato:wght@300;400&family=Victor+Mono:ital,wght@0,100;0,300;1,200&display=swap');
+/* 
+font-family: 'Inconsolata', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Victor Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@700&family=Arizonia&family=Caveat:wght@500&family=Cherry+Cream+Soda&family=Dancing+Script:wght@700&family=IBM+Plex+Mono:wght@300&family=Inconsolata:wght@200;800&family=Jost:ital,wght@1,300&family=Lato:wght@300;400&family=Victor+Mono:ital,wght@0,100;0,300;1,200&display=swap');
+
+/* font-family: 'Aclonica', sans-serif;
+font-family: 'Arizonia', cursive;
+font-family: 'Victor Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@700&family=Arizonia&family=Caveat:wght@500&family=Cherry+Cream+Soda&family=Chicle&family=Dancing+Script:wght@700&family=IBM+Plex+Mono:wght@300&family=Inconsolata:wght@200;800&family=Jost:ital,wght@1,300&family=Lato:wght@300;400&family=Satisfy&family=Victor+Mono:ital,wght@0,100;0,300;1,200&display=swap');
+
+/* font-family: 'Aclonica', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Arizonia', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Cherry Cream Soda', cursive;
+font-family: 'Chicle', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Inconsolata', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Victor Mono', monospace; */
+
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    background-image: url(./IMAGENES/Papel-Tapiz.jpg);
+    background-size: contain;
+    margin: 0;
+}
+
+/* ENCABEZADO */
+
+header{
+    background-color: #93a8ba;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.marca{
+    height: 120%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+}
+
+.marca img{
+    height: 160%;
+    width: 120%;
+}
+   
+
+.marca_icono{
+    height: 100%;
+    border: .3rem double white;
+    margin-left: 1rem;
+}
+
+/* *NAVEGACION* */
+
+.navegador{
+    background-color: #93a8baac;
+    height: 4vw;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navegador-contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navegador-contenedor-opcion a{
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+    border: 1px solid white;
+    color: aliceblue;
+    padding: 0 .4rem;
+}
+
+.navegador-contenedor-opcion a:hover{
+    background-color: rgb(88, 87, 87);
+    cursor: pointer;
+}
+
+/********PORTADA********/
+
+
+.portada{
+    background-color: #93a8baac;
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.portada_portada-imagen{
+    /* height: 50%; */
+    width: 30%;
+    background-color: rgb(199, 197, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .5rem double white;
+}
+
+.portada_portada-imagen img{
+    height: 80%;
+    width: 150%;
+    border-radius: 100%;
+    border-radius: 1rem double white;
+    display: flex;
+    flex-grow: 1;
+}
+
+.portada_portada-saludo{
+    font-size: 300%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Victor Mono', monospace;
+    gap: 2rem;
+}
+
+.portada_portada-saludo h1{
+    font-size: 3rem;
+    margin: 0;
+    
+}  
+
+.portada_portada-saludo p{
+    font-family: 'Dancing Script', cursive;
+}  
+
+.portada-saludo_texto{
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+}
+
+/********SOY********/
+
+.soy{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+    width: 100vw;
+    color: whitesmoke;
+}
+
+.soy_soy-descripcion{
+    font-weight: 500;
+    text-align: center;
+    background-color:rgb(44, 61, 77);
+    width: 80%;
+    
+}
+
+.soy_soy-habilidades{
+    padding-top: 2rem;
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(44, 61, 77);
+}
+
+.soy_soy-habilidades div{
+    height: 6.5em;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(44, 61, 77);
+    padding-top: .5rem;
+}
+
+.soy_soy-habilidades div img{
+    height: 50%;
+    width: 50%;
+    
+}
+
+/*  proyectos  */
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 4rem;
+}
+
+.proyectos_proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 75%;
+    border: .5rem solid rgb(44, 61, 77);
+    /* background-color:  rgb(24, 46, 65); */
+    background-color: rgb(44, 61, 77);
+}
+
+.proyecto_texto{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: centekground-color: rgb(44, 61, 77);
+    /* azul medio rgb(44, 61, 77); */
+    border: .5rem solid rgb(44, 61, 77);
+}
+
+.proyecto_foto{
+    height: 60%;
+    width: 70%;
+}
+    
+.texto-center{
+    text-align: center;
+    font-size: 3rem;
+}
+
+/***********FORMULARIO*********/
+
+.contacto{
+    margin-top: 3rem;
+    width: 100vw;
+    height: 50vh;
+}
+
+.formulario{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    padding: .2rem;
+    text-align: center;
+}
+
+.formulario fieldset{
+    
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.formulario legend{
+    
+    width: 60%;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    font-weight: 900;
+    /* padding: 1rem; */
+    margin-bottom: 2rem;
+    font-size: xx-large;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo input{
+    border: .3rem solid rgb(44, 61, 77);
+    background-image: url(./IMAGENES/Papel-Tapiz.jpg);
+    width: 60%;
+}
+
+
+.campo textarea{
+    /* flex: 1; */
+    border: 1px solid #e1e1e1;
+    height: 7rem;
+    width: 60%;
+    background-image: url(./IMAGENES/Papel-Tapiz.jpg);
+    border: .3rem solid rgb(44, 61, 77);
+}
+
+.enviar{
+    background-color:gray;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: x-large;
+    padding: .4rem;
+}
+
+.enviar:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+
+/**IMAGEN FINAL**/
+
+.adios-imagen{
+    background-image: linear-gradient(rgba(245, 244, 244, 0.805), rgba(255, 255, 255, 0.833)), url(https://media.giphy.com/media/3o6nV2ErFXV5uUwql2/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    height: 20vh;
+}
+
+.footer{
+    background-color: #93a8ba;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+}
+
+.firma-nombre{
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
+}
+
+
+    
+@media only screen and (min-width: 510px){
+    .portada{
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .portada_portada-imagen{
+        max-width: 10rem;
+    }
+
+    .proyectos_proyecto{
+        width: 24rem;
+    }
+
+    .proyecto_texto{
+        width: 24rem;
+    }
+
+    .adios-imagen{
+        height: 80vh;
+    }
+
+    .adios-imagen:hover{
+        transform: translateY(20);
+    }
+    
+    .lampara{
+        height: 250px;
+        transform: translateY(-100px);
+        transition: transform 2s ease-in-out;
+    }
+    
+    .contacto{
+        height: 48vh;
+    }
+
+    .formulario{
+        .margin-top: 3rem;
+    }
+    
+    .campo{
+        align-items: center;
+        justify-content: center;
+    }
+} 
+ 
+@media only screen and (min-width: 768px) {
+    
+    .proyectos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proyectos div{
+        width: 18rem;
+        height: 18rem;
+        justify-content: center;
+    }
+
+    .proyectos_proyecto{
+        flex-grow: 0;
+    }
+
+    .proyecto_foto{
+        height: 70%;
+        width: 80%;
+    }
+
+    .contacto{
+        margin: 2.5rem 0;
+        width: 100vw;
+        height: 44vh;
+    }
+    
+    .campo input{
+        width: 470px;
+    }
+
+    .campo textarea{
+        width: 470px;
+    }
+
+}
+
+@media only screen and (min-width: 910px) {
+    .portada{
+        gap: 8rem;
+    }
+
+    .portada_portada-saludo{
+        font-size: 400%;
+    }
+
+    .sobre_mi{
+        display: flex;
+        margin: 3rem 0 0 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .soy{
+        width: 30vw;
+    }
+
+
+    .proyectos{
+        max-width: 800px;
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
+
+    .proyectos_proyecto h2{
+        margin: .5rem 0;
+    }
+
+    .contacto{
+        max-width: 870px;
+        height: 370px;
+        margin: 0 auto;
+    }
+
+    .formulario{
+        margin: 3rem;
+    }
+
+}
+ 
+@media only screen and (max-width: 319px) {
+   
+}
+ 
